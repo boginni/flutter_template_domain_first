@@ -1,9 +1,5 @@
 import 'package:flutter_modular/flutter_modular.dart';
 
-
-
-
-
 class AppModule extends Module {
   static const String splash = '/splash';
   static const String shell = '/shell';

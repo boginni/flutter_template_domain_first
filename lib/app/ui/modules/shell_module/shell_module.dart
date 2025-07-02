@@ -1,8 +1,5 @@
 import 'package:flutter_modular/flutter_modular.dart';
 
-
-
-
 import '../home_module/home_module.dart';
 
 class ShellModule extends Module {

@@ -29,12 +29,9 @@ class UserLeadEntity extends Entity {
       userId: json['user_id'],
       vehicleId: json['vehicle_id'],
       syncStatus: json['sync_status'] == 1,
-      syncDate:
-          json['deleted_at'] != null ? DateTime.parse(json['sync_date']) : null,
+      syncDate: json['deleted_at'] != null ? DateTime.parse(json['sync_date']) : null,
       createdAt: DateTime.parse(json['created_at']),
-      deletedAt: json['deleted_at'] != null
-          ? DateTime.parse(json['deleted_at'])
-          : null,
+      deletedAt: json['deleted_at'] != null ? DateTime.parse(json['deleted_at']) : null,
       vehicleName: json['vehicle_name'],
       vehiclePrice: json['vehicle_price'],
     );

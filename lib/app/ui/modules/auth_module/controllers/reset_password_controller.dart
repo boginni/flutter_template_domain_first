@@ -1,6 +1,3 @@
-
-
-
 class ResetPasswordController {
   final ResetPasswordStore store;
   final ProfileRepository profileRepository;

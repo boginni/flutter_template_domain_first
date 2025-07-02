@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-
-
 import 'widgets/langague_modal.dart';
 
 class SettingsWire extends StatelessWidget {
@@ -18,7 +16,8 @@ class SettingsWire extends StatelessWidget {
           ListTile(
             leading: const Icon(Icons.language),
             title: Text(context.appLocalizations.language),
-            subtitle: Text('${context.appLocalizations.locale} - ${context.appLocalizations.locale_name}'),
+            subtitle: Text(
+                '${context.appLocalizations.locale} - ${context.appLocalizations.locale_name}'),
             onTap: () async {
               final locale = await LanguageModal.show(context);
               if (locale != null) {

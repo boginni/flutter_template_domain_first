@@ -1,10 +1,5 @@
 import 'package:flutter_modular/flutter_modular.dart';
 
-
-
-
-
-
 import 'controllers/home_controller.dart';
 import 'pages/home_page.dart';
 

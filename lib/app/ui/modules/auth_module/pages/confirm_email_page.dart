@@ -2,10 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:skeletons/skeletons.dart';
 
-
-
-
-
 class ConfirmEmailPage extends StatefulWidget {
   const ConfirmEmailPage({
     super.key,
@@ -59,7 +55,8 @@ class _ConfirmEmailPageState extends State<ConfirmEmailPage> {
                             ),
                           ),
                           TextSpan(
-                            text: context.appLocalizations.check_your_email_and_open_the_link_to_confirm_your_email,
+                            text: context.appLocalizations
+                                .check_your_email_and_open_the_link_to_confirm_your_email,
                           ),
                         ],
                       ),

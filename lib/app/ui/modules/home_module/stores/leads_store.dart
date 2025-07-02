@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 
-
 class LeadsStore extends ChangeNotifier {
   bool _loading = true;
 

@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 
-
 class ConfirmPasswordStore extends ChangeNotifier {
   UserEntity? user;
 

@@ -1,4 +1,3 @@
-
 import 'entity.dart';
 
 class CacheEntity extends Entity {

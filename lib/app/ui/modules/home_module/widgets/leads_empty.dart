@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class LeadsEmpty extends StatelessWidget {
   const LeadsEmpty({
     super.key,
@@ -23,7 +22,8 @@ class LeadsEmpty extends StatelessWidget {
             style: context.textTheme.titleLarge,
           ),
           Text(
-            context.appLocalizations.click_in_the_i_wish_button_inside_the_vehicle_card_to_add_a_lead,
+            context
+                .appLocalizations.click_in_the_i_wish_button_inside_the_vehicle_card_to_add_a_lead,
             style: context.textTheme.bodySmall,
             textAlign: TextAlign.center,
           ),

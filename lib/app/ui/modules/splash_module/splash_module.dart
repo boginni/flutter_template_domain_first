@@ -1,8 +1,5 @@
 import 'package:flutter_modular/flutter_modular.dart';
 
-
-
-
 import '../auth_module/auth_module.dart';
 
 class SplashModule extends Module {

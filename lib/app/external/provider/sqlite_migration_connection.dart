@@ -19,7 +19,8 @@ class SqliteMigrationConnection implements MigrationConnection {
 
   @override
   Future<bool> hasMigrationBeenRun(String migrationName) async {
-    final query = await database.rawQuery('SELECT * FROM migrations WHERE migration = ?', [migrationName]);
+    final query =
+        await database.rawQuery('SELECT * FROM migrations WHERE migration = ?', [migrationName]);
     return query.isNotEmpty;
   }
 

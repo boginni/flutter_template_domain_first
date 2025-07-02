@@ -4,15 +4,13 @@ import '../../domain/architecture/constants.dart';
 import '../../domain/services/authorization_service.dart';
 import '../../external/architecture/data_failures.dart';
 
-class DioAuthorizationInterceptor extends Interceptor
-    implements AuthorizationService {
+class DioAuthorizationInterceptor extends Interceptor implements AuthorizationService {
   DioAuthorizationInterceptor();
 
   String? bearer;
 
   bool validateStatus(int? status) {
-    return status != null &&
-        (status >= 200 && status < 300 || status == 401 || status == 500);
+    return status != null && (status >= 200 && status < 300 || status == 401 || status == 500);
   }
 
   @override

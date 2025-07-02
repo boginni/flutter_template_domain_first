@@ -2,9 +2,6 @@ import 'dart:async';
 
 import 'package:flutter_modular/flutter_modular.dart';
 
-
-
-
 import '../../app_module.dart';
 
 class SplashController {

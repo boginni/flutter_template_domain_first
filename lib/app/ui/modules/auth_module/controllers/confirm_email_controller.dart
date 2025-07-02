@@ -1,6 +1,3 @@
-
-
-
 class ConfirmEmailController {
   final ProfileRepository profileRepository;
   final ConfirmPasswordStore store;

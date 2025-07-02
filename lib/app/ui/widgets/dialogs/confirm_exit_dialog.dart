@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 import '../../../domain/extensions/app_localization_extension.dart';
 
-
 class ConfirmExitDialog extends StatelessWidget {
   const ConfirmExitDialog({
     super.key,

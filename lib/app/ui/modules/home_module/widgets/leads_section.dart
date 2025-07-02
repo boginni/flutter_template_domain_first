@@ -1,9 +1,6 @@
 import 'package:design_system/design_system.dart';
 import 'package:flutter/material.dart';
 
-
-
-
 import 'leads_empty.dart';
 import 'leads_vertical_card.dart';
 

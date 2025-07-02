@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:open_mail_app/open_mail_app.dart';
 
-
 import '../../../services/open_mail_service.dart';
 
 class CoreOpenMailService implements OpenMailService {

@@ -7,8 +7,7 @@ abstract class Failure implements Exception {
 }
 
 class SerializationFailure extends Failure {
-  const SerializationFailure(this.error, StackTrace stackTrace)
-      : super(stackTrace);
+  const SerializationFailure(this.error, StackTrace stackTrace) : super(stackTrace);
 
   final dynamic error;
 

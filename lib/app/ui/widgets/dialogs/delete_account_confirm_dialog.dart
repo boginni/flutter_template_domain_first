@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 import '../../../domain/extensions/app_localization_extension.dart';
 
-
 class DeleteAccountConfirmDialog extends StatelessWidget {
   const DeleteAccountConfirmDialog({
     super.key,

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 /// DISCARDED FOR NOW BECAUSE I WAS LAZY TO IMPLEMENT
 class RememberMeSegment extends StatelessWidget {
   const RememberMeSegment({

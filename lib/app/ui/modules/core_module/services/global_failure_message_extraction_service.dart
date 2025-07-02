@@ -1,13 +1,10 @@
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
-
-
-
-
 import '../../../services/failure_message_extraction_service.dart';
 
 class GlobalFailureMessageExtractionService extends FailureMessageExtractionService {
-  AppLocalizations? get _locations => GlobalScaffoldProvider.scaffoldKey.currentContext?.appLocalizations;
+  AppLocalizations? get _locations =>
+      GlobalScaffoldProvider.scaffoldKey.currentContext?.appLocalizations;
 
   String? extractMessage(Failure failure) {
     if (failure is InternalAuthError) {

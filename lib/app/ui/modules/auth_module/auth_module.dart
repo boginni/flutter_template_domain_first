@@ -1,22 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import '../../../domain/repositories/auth_repository.dart';
 import 'controllers/confirm_email_controller.dart';
 

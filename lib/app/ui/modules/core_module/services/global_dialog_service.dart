@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-
-
 class GlobalDialogService extends DialogService {
   BuildContext? get _context => GlobalScaffoldProvider.scaffoldKey.currentContext;
 

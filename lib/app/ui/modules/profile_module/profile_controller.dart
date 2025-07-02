@@ -1,6 +1,5 @@
 import 'package:flutter_modular/flutter_modular.dart';
 
-
 import '../../../domain/repositories/auth_repository.dart';
 import '../../../domain/repositories/profile_repository.dart';
 import '../../app_module.dart';

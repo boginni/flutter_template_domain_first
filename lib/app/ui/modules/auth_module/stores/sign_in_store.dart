@@ -2,7 +2,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:validatorless/validatorless.dart';
 
-
 class SignInStore extends ChangeNotifier {
   final formKey = GlobalKey<FormState>();
 

@@ -2,8 +2,7 @@ import 'package:dio/dio.dart';
 
 import '../../domain/architecture/failure.dart';
 
-class DioAuthorizationFailure extends DioException
-    implements UnauthorizedFailure {
+class DioAuthorizationFailure extends DioException implements UnauthorizedFailure {
   DioAuthorizationFailure({
     required super.requestOptions,
     required super.response,

@@ -1,9 +1,5 @@
 import 'package:flutter/material.dart';
 
-
-
-
-
 class ProfileWire extends StatefulWidget {
   const ProfileWire({
     super.key,

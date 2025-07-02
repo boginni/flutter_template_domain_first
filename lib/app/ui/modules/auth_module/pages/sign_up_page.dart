@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:validatorless/validatorless.dart';
 
-
-
-
 class SignUpPage extends ListenableWidget {
   const SignUpPage({
     super.key,
@@ -62,7 +59,8 @@ class SignUpPage extends ListenableWidget {
                 autofillHints: const [AutofillHints.password],
                 validator: Validatorless.multiple([
                   Validatorless.required(context.appLocalizations.required_field),
-                  Validatorless.min(6, context.appLocalizations.password_must_have_at_least_6_characters),
+                  Validatorless.min(
+                      6, context.appLocalizations.password_must_have_at_least_6_characters),
                   Validatorless.compare(
                     controller.store.passwordController,
                     context.appLocalizations.passwords_do_not_match,
@@ -84,7 +82,8 @@ class SignUpPage extends ListenableWidget {
                 autofillHints: const [AutofillHints.password],
                 validator: Validatorless.multiple([
                   Validatorless.required(context.appLocalizations.required_field),
-                  Validatorless.min(6, context.appLocalizations.password_must_have_at_least_6_characters),
+                  Validatorless.min(
+                      6, context.appLocalizations.password_must_have_at_least_6_characters),
                   Validatorless.compare(
                     controller.store.passwordController,
                     context.appLocalizations.passwords_do_not_match,

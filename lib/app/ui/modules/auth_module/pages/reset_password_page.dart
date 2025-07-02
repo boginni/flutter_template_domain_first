@@ -3,10 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:validatorless/validatorless.dart';
 
-
-
-
-
 class ResetPasswordPage extends ListenableWidget {
   const ResetPasswordPage({
     super.key,
@@ -105,7 +101,8 @@ class ResetPasswordPage extends ListenableWidget {
                     ),
                   ),
                   TextSpan(
-                    text: context.appLocalizations.check_your_email_and_open_the_link_to_reset_your_password,
+                    text: context
+                        .appLocalizations.check_your_email_and_open_the_link_to_reset_your_password,
                   ),
                 ],
               ),

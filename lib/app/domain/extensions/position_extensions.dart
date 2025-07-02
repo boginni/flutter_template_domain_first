@@ -28,11 +28,10 @@ extension Vector2Extensions on Vector2 {
     final cosLat2 = math.cos(other.x.toRadians());
     final cosLatProduct = cosLat1 * cosLat2;
 
-    final haversineTerm =
-        sinDeltaLatSquared + (cosLatProduct * sinDeltaLonSquared);
+    final haversineTerm = sinDeltaLatSquared + (cosLatProduct * sinDeltaLonSquared);
 
-    final centralAngle = precision *
-        math.atan2(math.sqrt(haversineTerm), math.sqrt(1.0 - haversineTerm));
+    final centralAngle =
+        precision * math.atan2(math.sqrt(haversineTerm), math.sqrt(1.0 - haversineTerm));
 
     return _earthRadius * centralAngle;
   }

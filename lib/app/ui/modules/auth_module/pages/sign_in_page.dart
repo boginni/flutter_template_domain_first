@@ -1,11 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
-
-
-
-
-
 import '../../../app_module.dart';
 import '../widgets/email_sign_in_form.dart';
 import '../widgets/phone_sign_in_form.dart';
@@ -78,7 +73,8 @@ class SignInPage extends ListenableWidget {
                 height: 16,
               ),
               Text(
-                context.appLocalizations.you_dont_need_to_sign_up_when_using_google_phone_or_anonymous,
+                context
+                    .appLocalizations.you_dont_need_to_sign_up_when_using_google_phone_or_anonymous,
                 style: context.textTheme.labelSmall,
                 textAlign: TextAlign.center,
               ),

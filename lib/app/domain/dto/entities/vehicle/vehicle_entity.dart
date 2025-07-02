@@ -11,7 +11,8 @@ class VehicleEntity implements Entity {
   final String nomeModelo;
   final num valor;
 
-  DateTime get timestampCadastroDate => DateTime.fromMillisecondsSinceEpoch(timestampCadastro * 1000);
+  DateTime get timestampCadastroDate =>
+      DateTime.fromMillisecondsSinceEpoch(timestampCadastro * 1000);
 
   const VehicleEntity({
     required this.id,
